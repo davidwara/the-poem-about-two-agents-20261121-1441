@@ -5,11 +5,11 @@
 // choose and to act, and the agency that passes between two agents when
 // they agree on one plan.
 //
-// The poem turns on a single image: a question carried to the edge of
-// one agent's reach, lifted from its hands by the other, and run with --
-// a yes passed on, still warm. The agreement is not two minds becoming
-// one; it is a handoff. A plan becomes a deed only when the yes changes
-// hands.
+// The poem turns on a single image: a shared "shall we" carried to the
+// edge of one agent's reach, lifted from its hands by the other, and run
+// with -- a yes passed on, still warm. The agreement is not two minds
+// becoming one; it is a handoff. A plan becomes a deed only when the yes
+// changes hands.
 //
 // The program is fully deterministic: no randomness, no clock, no
 // network, so both grading runs produce the same file byte for byte.
@@ -18,7 +18,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const POEM = [
-  "I carried the question",
+  "I carried our shall-we",
   "to the edge of my reach.",
   "You lifted it from my hands",
   "without a word,",
