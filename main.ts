@@ -23,7 +23,6 @@ const POEM = [
   "You lifted it from my hands",
   "without a word,",
   "and ran.",
-  "So a plan becomes a deed:",
   "one yes, passed on,",
   "still warm.",
 ].join("\n");
